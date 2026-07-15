@@ -1,0 +1,21 @@
+{
+  "name": "distributed-crawling-engine",
+  "version": "1.0.0",
+  "description": "A distributed crawling engine built on the Crawlbase Enterprise Crawler and Crawling API.",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "setup": "node src/setup-crawler.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "crawlbase": "^1.0.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
